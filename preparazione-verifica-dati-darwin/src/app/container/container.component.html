@@ -1,5 +1,5 @@
-<ul>
-   <li *ngFor="let name of macchine">
-     <app-macchina [name]="name"></app-macchina>
+<ul class = "card-deck">
+   <li class = "card mb-1 bg-primary text_white" *ngFor="let name of macchine">
+     <app-macchina [name]="name" class = "card-body"></app-macchina>
    </li>
 </ul>
