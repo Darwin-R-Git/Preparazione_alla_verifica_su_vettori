@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./macchina.component.css']
 })
 export class MacchinaComponent implements OnInit {
-  @Input() macchina: string; // <-- Aggiungi la notazione @input
+  @Input() name: string = "";
 
   constructor() { }
    
